@@ -1,3 +1,66 @@
-body {
+main {
+    /* background-color: blue; */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHmW4Xgf9sbvyuyILisDl5973G2I-lE7kVSv_5gHNgXChZCpsPOJIPqFuiBz1g_G0ncik&usqp=CAU");
+    color: rgb(38, 255, 5);
+    font-family: 'Pacifico', cursive;
+    -webkit-text-stroke: black 1px;
+}
+
+header {
+    text-align: right;
+    padding: 5em;
+}
+
+.newsImgBox {
+    text-align: left;
+    position: sticky;
+    top: 40px;
+}
+
+.newsImg {
+    max-width: 7em;
+}
+
+.einstein {
+    max-height: 10em;
+}
+
+.crapContainer__selfContainer {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: solid brown 2px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.crapContainer__selfContainer__peyton {
+    border: chartreuse solid 2px;
+    background-color: blanchedalmond;
+}
+
+.crapContainer__selfContainer__andrew {
+    border: rgb(70, 163, 146) solid 2px;
+    background-color: blanchedalmond;
     
+}
+
+.crapContainer__selfContainer__caleb {
+    border: rgb(148, 42, 106) solid 2px;
+    background-color: blanchedalmond;
+    
+}
+
+.crapContainer__selfContainer__ryan {
+    border: rgb(226, 21, 21) solid 2px;
+    background-color: blanchedalmond;
+
+}
+
+footer {
+    color: tomato;
+    background-color: chartreuse;
+}
+
+a {
+    color: tomato;
 }
