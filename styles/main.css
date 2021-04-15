@@ -64,3 +64,12 @@ footer {
 a {
     color: tomato;
 }
+
+.rickRoll {
+    text-align: center;
+    position: sticky;
+    float: right;
+    top: 500px;
+    right: 950px;
+    font-size: xx-large;
+}
