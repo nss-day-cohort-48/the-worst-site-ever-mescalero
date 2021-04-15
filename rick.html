@@ -11,11 +11,15 @@
     
     <img src="https://jollycontrarian.com/images/6/6c/Rickroll.jpg" alt="Rick Roll" class="rick-roll__image">
 
-    <audio src="Users/andrew/Documents/never-gonna-give-you-up.mp3" controls>
+    <audio autoplay controls id="rick-roll__song">
+        <source src="never-gonna-give-you-up.mp3" type="audio/mp3">
         <p>If you are reading this, it is because your browser does not support the audio element.</p>
         </audio>
 
+        <!-- <audio autoplay>
+            <source src="never-gonna-give-you-up.mp3" type="audio/mpeg">
+          </audio> -->
         <!-- <embed name="never-gonna-give-you-up" src="/Users/andrew/Documents/never-gonna-give-you-up.mp3" loop="true" hidden="true" autostart="true"> -->
-    
+            <script> document.getElementById('rick-roll__song').play(); </script>
 </body>
 </html>
